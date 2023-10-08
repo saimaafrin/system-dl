@@ -9,5 +9,7 @@ The following files contain the implementation of ```Custom Linear layer``` and 
 
 ```lenet_model.py```: The Lenet300-100-10 implementation using the ```CustomLinearLayer``` has been done here. 
 
+the ```test_apis.py``` script conatins code which has been used to test the kernel operation and matrix dimension correctly.
+
 
 
