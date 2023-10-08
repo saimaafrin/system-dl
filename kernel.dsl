@@ -10,3 +10,6 @@ void gsddmmvv2d(graph_t& graph, array3d_t<float>& input_left, array3d_t<float>& 
 void test_2out(graph_t& graph, array2d_t<float>& input1, array2d_t<float>& input2, array2d_t<float>& output1, array2d_t<float>& output2, op_t op, bool reverse);
 void test3(array2d_t<float>& input1, array2d_t<float>& input2, array2d_t<float>& output1, array2d_t<float>& output2, op_t op, bool reverse);
 void test4(array3d_t<float>& input1, array4d_t<float>& input2, array4d_t<float>& output1, int t);
+void vectorAdd(array1d_t<float>& input1, array1d_t<float>& input2, array1d_t<float>& output, int W);
+void Mul(array2d_t<float>& input1, array2d_t<float>& input2, array2d_t<float>& output, int numARows, int numAColumns, int numBColumns);
+void Tpose(array2d_t<float>& input1, array2d_t<float>& output, int rows, int cols);
