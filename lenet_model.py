@@ -53,7 +53,7 @@ class LeNet300(nn.Module):
         return x3
 
 # Set Device
-device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+device = torch.device('cuda')
 
 # Hyperparameters
 learning_rate = 0.0001
@@ -67,8 +67,9 @@ train_loader = DataLoader(dataset=train_dataset, batch_size=batch_size, shuffle=
 
 # Initialize Model
 model = LeNet300(device)
+#model.to(device)
 
-optimizer = optim.SGD(model.parameters(), lr=learning_rate, momentum=0.9)
+optimizer = optim.SGD(model.parameters(), lr=learning_rate)
 
 # Training Loop
 for epoch in range(epochs):
