@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # deep-codegen
 A tool to generate code for customizing deep learning libraries. This tool converts `deep learning library development` to `independent code` development by removing all the dependencies that a deep learning framework, such as Pytorch or Tensorflow brings. As you are aware, writing independent code for education and research is faster than modifying an existing framework.
 
@@ -56,3 +57,6 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 For calling the actual APIs that you have implemented as part of the class assignment, we will be testing the same APIs but now using PyTorch and Python.
 You can call any of the APIs that you generated, or you can call PyTorch APIs, there is no difference.
+=======
+# system-dl
+>>>>>>> 63b9480bc34cffbe52edd9dceadb0f0102c3a73d
