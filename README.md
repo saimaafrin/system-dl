@@ -11,6 +11,7 @@ The following files contain the implementation of ```Custom Linear layer``` and 
 
 the ```test_apis.py``` script conatins code which has been used to test the kernel operation and matrix dimension correctly.
 
+
 ```result.txt``` file contains the train and test accuracy result (for 200 epoch) of  ```Lenet-300-100-10 Model``` 
 
 
