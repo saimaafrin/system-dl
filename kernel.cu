@@ -38,12 +38,12 @@ void Mul(array2d_t<float>& input1, array2d_t<float>& input2, array2d_t<float>& o
     dim3 numBlocks((input2.col_count + threadsPerBlock.x - 1) / threadsPerBlock.x, (input1.row_count + threadsPerBlock.y - 1) / threadsPerBlock.y);
 
     Mul_cuda<<<numBlocks, threadsPerBlock>>>(input1.data_ptr, input2.data_ptr, output.data_ptr, input1.row_count, input1.col_count, input2.col_count);
-    cudaDeviceSynchronize(); 
+    //cudaDeviceSynchronize(); 
     }
 void Tpose(array2d_t<float>& input1, array2d_t<float>& output){
     dim3 numBlocks((input1.col_count + threadsPerBlock.x - 1) / threadsPerBlock.x, 
                (input1.row_count + threadsPerBlock.y - 1) / threadsPerBlock.y);
 
     Tpose_cuda<<<numBlocks, threadsPerBlock>>>(input1.data_ptr, output.data_ptr, input1.row_count, input1.col_count);
-    cudaDeviceSynchronize(); 
+    //cudaDeviceSynchronize(); 
     }
