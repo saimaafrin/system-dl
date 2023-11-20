@@ -1,6 +1,0 @@
-/home/datalab/safrin/assignment/deep-codegen/build/CMakeFiles/graphpy.dir
-/home/datalab/safrin/assignment/deep-codegen/build/CMakeFiles/libgp.so.dir
-/home/datalab/safrin/assignment/deep-codegen/build/CMakeFiles/edit_cache.dir
-/home/datalab/safrin/assignment/deep-codegen/build/CMakeFiles/rebuild_cache.dir
-/home/datalab/safrin/assignment/deep-codegen/build/pybind11/CMakeFiles/edit_cache.dir
-/home/datalab/safrin/assignment/deep-codegen/build/pybind11/CMakeFiles/rebuild_cache.dir

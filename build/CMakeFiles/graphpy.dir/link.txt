@@ -1,1 +1,0 @@
-/usr/bin/c++ -fPIC -O3 -DNDEBUG -fopenmp -flto -shared  -o graphpy.cpython-38-x86_64-linux-gnu.so CMakeFiles/graphpy.dir/kernel_pybind.cpp.o   -L/home/datalab/safrin/assignment/deep-codegen  -Wl,-rpath,/home/datalab/safrin/assignment/deep-codegen -lgp 
